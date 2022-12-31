@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#e0e0e0
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dbCount{
+  color:orange;
+}
+.contain{
+	padding: 0px 20px;
+}
+
+.product-img{
+  width: 75px;
+}
+.product-name:hover{
+  cursor: pointer;
+  color: #2874f0;
+}
+
+.containers{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0px ;
+  border-bottom: 1px solid  #e4e7ed;
+  background-color: white;
+}
+.contain p{
+	color: black;
+	 font-family:  Roboto,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.err-msg{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 15px 0px ;
+  border-bottom: 1px solid  #e4e7ed;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 507px;
+  
+}
+
+.img-center img{
+  margin-left: -50px;
+  margin-top: 40px;
+}
+
+.err-txt{
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-left: -25px;
+}
+.err-txt2{
+  font-size: 23px;
+  margin-left: -25px;
+  color: gray;
+  
+}
+.retry-btn{
+  background-color: #2874f0;
+  color: white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  border: none;
+  padding: 10px;
+  font-weight:700;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: -30px;
+}
+
+.img-slide-contain{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.img-slide{
+  height: 300px;
+}
+.next-btn span{
+ margin-left: 45px;
+}
+.prev-btn span{
+  margin-left : -50px;
+}
+
+.product-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0px ;
+  padding-right: 20px;
+  border-bottom: 1px solid  #e4e7ed;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  height: 305px;
+
+}
+.product-container img{
+  width: 200px;
+  height: 180px;
+}
+.product-container div{
+  margin-left: 40px;
+}
+.product-container h6{
+  margin-top: 15px;
+  font-weight:bold;
+}
+.product-container img:hover{
+  cursor: pointer;
+}
+.p-avail{
+  color: grey;
+  margin-top: -15px;
+}
+.shopnow{
+  color: green;
+}
+
+.footer-menu{
+  display: flex;
+  
+  padding: 15px 0px ;
+  border-top: 1px solid  #e4e7ed;
+  background:#192344;
+  margin-top: 20px;
+  height: 320px;
+}
+.foot-topic a{
+  text-decoration: none;
+  margin-top: 10px;
+  color:white;
+  font-size: 14px;
+  display: block;
+}
+.foot-topic a:hover{
+  cursor: pointer;
+  text-decoration:underline;
+}
+.foot-topic div{
+  color: grey;
+  font-weight: bold;
+}
+.foot-topic{
+  margin-left: 50px;
+}
+.horizontal-line{
+  border: 1px solid gray;
+  margin-left: 28px;
+  height: 220px;
+}
+
+
+nav{
+	background: #2874f0;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 10px 0px;
+  position: sticky;
+  top: 0;
+}
+span{
+	color: #ffe500;
+}
+nav p{
+		font-style: italic;
+		font-size: 11px;
+		color: white;
+		font-family: sans-serif;
+}
+.flipkart-Plus{
+  margin-top: -4px;
+}
+.logo{
+  top: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.search-input{
+  margin-top: 5px;
+  width: 480px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  padding-left: 20px;
+  font-weight:600;
+  height:50px;
+}
+.input-container i{
+  margin-left: -35px;
+  font-size: 20px;
+  color: #2874f0;
+}
+.login-btn{
+  width:100px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: white;
+  margin-top: 8px;
+}
+.login-btn button{
+  border: none;
+  background-color: white;
+  margin-top: 5px;
+  font-weight:bold;
+  font-size: 17px;
+  color: #2874f0;
+}
+.link{
+  text-decoration: none;
+}
+.become-txt{
+  margin-top: 15px;
+  font-weight: bold;
+  font-size:16px;
+  color: white;
+  cursor: pointer;
+}
+.cart-txt{
+  font-size: 17px;
+}
+.cart-icon{
+  margin-right: 8px;
+}
